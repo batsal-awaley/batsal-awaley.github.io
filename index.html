@@ -331,6 +331,7 @@
   /* ---------- Contact ---------- */
   .contact-lead{ font-size:1.15rem; max-width:52ch; margin-bottom:24px; }
   .contact-row{ display:flex; flex-wrap:wrap; gap:12px; }
+  .project-links{ margin-top:20px; }
   .btn{
     display:inline-flex;
     align-items:center;
@@ -383,9 +384,10 @@
     <nav class="toc">
       <a href="#profile"><span class="num">01</span><span>Profile</span></a>
       <a href="#experience"><span class="num">02</span><span>Experience</span></a>
-      <a href="#skills"><span class="num">03</span><span>Skills</span></a>
-      <a href="#education"><span class="num">04</span><span>Education</span></a>
-      <a href="#contact"><span class="num">05</span><span>Contact</span></a>
+      <a href="#projects"><span class="num">03</span><span>Projects</span></a>
+      <a href="#skills"><span class="num">04</span><span>Skills</span></a>
+      <a href="#education"><span class="num">05</span><span>Education</span></a>
+      <a href="#contact"><span class="num">06</span><span>Contact</span></a>
     </nav>
 
     <div class="side-stats">
@@ -495,8 +497,34 @@
 
     </section>
 
+    <section id="projects">
+      <div class="sec-head"><span class="sec-num">03</span><h2>Projects</h2></div>
+
+      <article class="entry">
+        <div class="row1">
+          <h3>Baagh Chaal <span class="co">· Personal project</span></h3>
+          <span class="when">Android · Google Play</span>
+        </div>
+        <ul>
+          <li>Designed, built, and published a mobile version of Baagh Chaal, the traditional Nepali tigers-and-goats strategy board game, in Unreal Engine.</li>
+          <li>Built an AI opponent, local two-player mode, and full offline play, so the game works anywhere without a connection.</li>
+          <li>Own the whole lifecycle as solo developer: game logic, UI, AdMob monetization, store listing, and releases.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Unreal Engine</span>
+          <span class="tag">Game AI</span>
+          <span class="tag">Android</span>
+          <span class="tag">AdMob</span>
+          <span class="tag">Google Play</span>
+        </div>
+        <div class="contact-row project-links">
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.batsalawaley.baaghchaal" target="_blank" rel="noopener">Get it on Google Play ↗</a>
+        </div>
+      </article>
+    </section>
+
     <section id="skills">
-      <div class="sec-head"><span class="sec-num">03</span><h2>Skills</h2></div>
+      <div class="sec-head"><span class="sec-num">04</span><h2>Skills</h2></div>
       <div class="skill-groups">
         <div class="skill-group">
           <span class="label">Backend &amp; Architecture</span>
@@ -551,7 +579,7 @@
     </section>
 
     <section id="education">
-      <div class="sec-head"><span class="sec-num">04</span><h2>Education</h2></div>
+      <div class="sec-head"><span class="sec-num">05</span><h2>Education</h2></div>
       <div class="edu-grid">
         <div class="edu-card">
           <h3>University of Southern Queensland</h3>
@@ -567,7 +595,7 @@
     </section>
 
     <section id="contact">
-      <div class="sec-head"><span class="sec-num">05</span><h2>Contact</h2></div>
+      <div class="sec-head"><span class="sec-num">06</span><h2>Contact</h2></div>
       <p class="contact-lead">Looking for senior or staff-level roles where I own systems, not just tickets: Rails architecture, PostgreSQL at scale, AWS infrastructure. Based in Sydney, NSW, open to remote or hybrid.</p>
       <div class="contact-row">
         <a class="btn primary" href="mailto:batsal.awaley@gmail.com">batsal.awaley@gmail.com</a>
